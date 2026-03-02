@@ -1,0 +1,12 @@
+PackageIdentifier: Promethyxx.Oxyon
+PackageVersion: 1.5.0
+Installers:
+  - Architecture: x64
+    InstallerType: portable
+    InstallerUrl: https://github.com/Promethyxx/oxyon/releases/download/1.5.0/Oxyon_Win_X64.exe
+    InstallerSha256: 56351b60e7ea26c77143695e62795d47af2b78d9b368389eebb59c5dc57ab4e1
+    Commands:
+      - oxyon
+    PortableCommandAlias: oxyon
+ManifestType: installer
+ManifestVersion: 1.6.0
