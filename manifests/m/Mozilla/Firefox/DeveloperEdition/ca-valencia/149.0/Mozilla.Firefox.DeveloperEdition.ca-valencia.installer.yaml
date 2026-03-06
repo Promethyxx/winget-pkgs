@@ -24,19 +24,19 @@ FileExtensions:
 - webp
 - xht
 - xhtml
-ReleaseDate: 2026-02-27
+ReleaseDate: 2026-03-04
 Installers:
 - Architecture: x86
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/149.0b2/win32/ca-valencia/Firefox%20Setup%20149.0b2.exe
-  InstallerSha256: 774A7ADF623601F5E0C800DEA4ACAFF38EE5393B8048D7C42EB4C124C2776264
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/149.0b4/win32/ca-valencia/Firefox%20Setup%20149.0b4.exe
+  InstallerSha256: A56C41F1BA5195182B6A2724B6D8322AFD1842623D0EF0BB8EA3A0B408DED92E
   ProductCode: Firefox Developer Edition 149.0 (x86 ca-valencia)
 - Architecture: x64
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/149.0b2/win64/ca-valencia/Firefox%20Setup%20149.0b2.exe
-  InstallerSha256: 5AEF236DAC1739DB1EF9430EFBC8F4D16B8FE81530D56BF7CEB8274ECDEA7F11
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/149.0b4/win64/ca-valencia/Firefox%20Setup%20149.0b4.exe
+  InstallerSha256: 4457164253DDD24A5406A7489F61D1BE34375607EC530FFA5715B52CEB357A9B
   ProductCode: Firefox Developer Edition 149.0 (x64 ca-valencia)
 - Architecture: arm64
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/149.0b2/win64-aarch64/ca-valencia/Firefox%20Setup%20149.0b2.exe
-  InstallerSha256: 49804656071B6947896D58ED7E33BC76019DC3B09FA389EAC3DE2E4E472F9437
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/149.0b4/win64-aarch64/ca-valencia/Firefox%20Setup%20149.0b4.exe
+  InstallerSha256: 3E94A7210B57B74D534FAA40EE28678C0C2053B943266EE59C2E7A4480AFC797
   ProductCode: Firefox Developer Edition 149.0 (arm64 ca-valencia)
 ManifestType: installer
 ManifestVersion: 1.12.0
