@@ -1,5 +1,5 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
 
 PackageIdentifier: KDE.Kollision
 PackageVersion: master
@@ -16,12 +16,12 @@ LicenseUrl: https://invent.kde.org/games/kollision/-/blob/HEAD/LICENSES/GPL-2.0-
 ShortDescription: A simple ball dodging game.
 Description: Kollision is a casual game where you need to throw your ball and avoid the others balls on the table as long as possible.
 Tags:
-- videogame
 - bullet-hell
 - bullethell
 - singleplayer
+- videogame
 Documentations:
 - DocumentLabel: Handbook
   DocumentUrl: https://docs.kde.org/?application=kollision
 ManifestType: defaultLocale
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0

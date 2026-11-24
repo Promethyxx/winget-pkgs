@@ -1,23 +1,24 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: KDE.Klines
 PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: klines
+ReleaseDate: 2026-11-23
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/klines/master/windows/klines-master-807-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: B87B03D17FA0AA662D13E12E418F5229B40EAD0B0D8409113400728A711A17A1
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/klines/master/windows/klines-master-965-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 7097CD0BD4E4120BABA5A69860410E35FCCF3DA3C7D589DA33CFD764257EC450
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/klines/master/windows/klines-master-807-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: B87B03D17FA0AA662D13E12E418F5229B40EAD0B0D8409113400728A711A17A1
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/klines/master/windows/klines-master-965-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 7097CD0BD4E4120BABA5A69860410E35FCCF3DA3C7D589DA33CFD764257EC450
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0

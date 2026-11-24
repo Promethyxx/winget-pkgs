@@ -1,23 +1,24 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: KDE.Picmi
 PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: picmi
+ReleaseDate: 2026-11-23
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/picmi/master/windows/picmi-master-787-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: B2EB92493055DA62EFA252E5D0D86E8849B6E60D2F7EDC95ECA49A515375083F
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/picmi/master/windows/picmi-master-927-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: A4B1238D4E48E9ABAF4C1FAC708995B80160C01F9D0E548767D1F2498E5CA9EF
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/picmi/master/windows/picmi-master-787-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: B2EB92493055DA62EFA252E5D0D86E8849B6E60D2F7EDC95ECA49A515375083F
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/picmi/master/windows/picmi-master-927-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: A4B1238D4E48E9ABAF4C1FAC708995B80160C01F9D0E548767D1F2498E5CA9EF
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0

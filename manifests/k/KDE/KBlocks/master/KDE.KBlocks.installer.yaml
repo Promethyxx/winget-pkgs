@@ -1,23 +1,24 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: KDE.KBlocks
 PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: kblocks
+ReleaseDate: 2026-11-23
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kblocks/master/windows/kblocks-master-875-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 22615487C69E8AD1C4308A2B00F50CA1CDE148A57F52AA86BD17352211058AA6
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kblocks/master/windows/kblocks-master-1019-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: D31C5DE4F1FF92CDA0D1F95F4D90D71A9193A9C460523BE2E8AE7797651ED9BA
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kblocks/master/windows/kblocks-master-875-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 22615487C69E8AD1C4308A2B00F50CA1CDE148A57F52AA86BD17352211058AA6
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kblocks/master/windows/kblocks-master-1019-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: D31C5DE4F1FF92CDA0D1F95F4D90D71A9193A9C460523BE2E8AE7797651ED9BA
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0

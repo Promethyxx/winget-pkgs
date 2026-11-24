@@ -1,23 +1,24 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
 
 PackageIdentifier: KDE.KBounce
 PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: kbounce
+ReleaseDate: 2026-11-23
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kbounce/master/windows/kbounce-master-817-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: AA6842300A9CBDE089D14BE4D70284DE1B0DAB745514D5DCDDE4799CE20DD44F
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kbounce/master/windows/kbounce-master-971-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 0D31DA50E99227D5FBFD0048BD4E9B201A2C933137AB440E9894F5FA463E93AF
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kbounce/master/windows/kbounce-master-817-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: AA6842300A9CBDE089D14BE4D70284DE1B0DAB745514D5DCDDE4799CE20DD44F
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kbounce/master/windows/kbounce-master-971-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 0D31DA50E99227D5FBFD0048BD4E9B201A2C933137AB440E9894F5FA463E93AF
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
-ManifestVersion: 1.12.0
+ManifestVersion: 1.28.0
